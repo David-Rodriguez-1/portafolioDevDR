@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #ed6a00;
+  --text-color: #3f4258;
+  --textH1-color: #1f2350;
+}
+
+.containerBtnCV{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.btnCV {
+    margin-top: 2rem;
+  margin-left: 0.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  width: 126.928px;
+  height: 51.602px;
+  background-color: var(--primary-color);
+  > span {
+    color: #fff;
+    background: transparent;
+  }
+}
+
+.imgD{
+    background: transparent;
+}

@@ -1,0 +1,15 @@
+.containerTec {
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  flex-wrap: nowrap;
+  margin: 0 1rem 0 1rem;
+  border-radius: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.ulTec {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #ed6a00;
+  --text-color: #3f4258;
+  --textH1-color: #1f2350;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.logo{
+  display: flex;
+  position: absolute;
+  width: 15%;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+}
+
+.navMenu {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+  justify-items: end;
+  .btnMenu,
+  .btnModo {
+    border: none;
+    background: transparent;
+  }
+}
+
+.section {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   .title {  
+    font-size: 42px;  
+    font-weight: 800;
+    color: var(--textH1-color);
+  }
+  > h4 {
+    margin: 0%;
+    font-weight: 600;
+    color: var(--text-color);
+    padding-right: 7.7rem;
+  }
+  > p {
+    color: var(--text-color);
+    width: 90%;
+    padding-right: 1rem;
+  }
+}
+.imgBack {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+
+}
+
+.btnContacto {
+  margin-left: 0.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  width: 126.928px;
+  height: 51.602px;
+  background-color: var(--primary-color);
+  > span {
+    color: #fff;
+    background: transparent;
+  }
+}
+
+.imgArrow{
+  background: transparent;
+}
+
+.btnContain {
+  margin-left: 1rem;
+  width: fit-content;
+  .btnLinkedin,
+  .btnGit {
+    border: none;
+    background: transparent;
+    margin-top: 1rem;
+    padding: 0.4rem;
+  }
+}
