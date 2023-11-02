@@ -1,3 +1,15 @@
 *{
-    background: #dddddd;
+    background: #FFFFFF;
+}
+body{
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        margin: .5rem;
+    }
 }

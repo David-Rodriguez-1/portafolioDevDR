@@ -1,18 +1,18 @@
-import Home from './components/home/home'
-import About from './components/About/About';
-import Tecnologias from './components/Tecnologias/Tecnologias';
-import BotonCV from './components/Boton-CV/BotonCV';
+import { Home, About, Experience, Trabajos } from './views/index'
+import { ThemeProvider } from './ThemeContext'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Tecnologias />
-      <BotonCV/>
-    </div>
-  );
+    <ThemeProvider>
+      <div className="App">
+        <Home />
+        <About />
+        <Experience />
+        <Trabajos />
+      </div>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App

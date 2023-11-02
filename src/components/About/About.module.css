@@ -2,23 +2,47 @@
   --primary-color: #ed6a00;
   --text-color: #3f4258;
   --textH1-color: #1f2350;
+  --color-text: #fff;
 }
 
 .container{
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #1f2350;
+    height: 40rem;
+    width: 100%;
 }
 .h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
     color: var(--textH1-color);
     border-bottom: 1px solid var(--text-color);
 }
 .p{
-    color: var(--text-color);
-    padding: 1rem;
+    color: var(--color-text);
+    max-width: 60%;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    background: transparent;
 }
 
 .imgDev{
-    width: 50%;
+    width: 18rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .p{
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 700px){
+    .p{
+        max-width: 80%;
+        font-size: 1rem;
+    }
 }

@@ -11,7 +11,8 @@
 .logo{
   display: flex;
   position: absolute;
-  width: 15%;
+  width: 10%;
+  min-width: 9%;
   z-index: 10;
 }
 
@@ -37,28 +38,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-   .title {  
+    .title {  
     font-size: 42px;  
     font-weight: 800;
     color: var(--textH1-color);
   }
-  > h4 {
+  > h2 {
     margin: 0%;
     font-weight: 600;
     color: var(--text-color);
-    padding-right: 7.7rem;
   }
   > p {
     color: var(--text-color);
-    width: 90%;
-    padding-right: 1rem;
+    max-width: 500px;
+    text-align: center;
   }
 }
 .imgBack {
   display: flex;
   justify-content: center;
   width: 30%;
-
 }
 
 .btnContacto {
@@ -91,4 +90,9 @@
     margin-top: 1rem;
     padding: 0.4rem;
   }
+}
+
+.btnModo{
+  color: #ed6a00;
+  font-size: 1.5rem;
 }

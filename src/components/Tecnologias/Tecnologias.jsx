@@ -1,19 +1,29 @@
 import style from './Tecnologias.module.css'
 
+const tecnologias = [
+  'HTML',
+  'CSS',
+  'JAVASCRIPT',
+  'REACT',
+  'REDUX',
+  'EXPRESS',
+  'NODE',
+  'SQL',
+  'POSTGRES'
+]
+
 export default function Tecnologias() {
-    return (
-      <div className={style.containerTec}>
-        <ul className={style.ulTec}>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>REACT</li>
-          <li>REDUX</li>
-          <li>EXPRESS</li>
-          <li>NODE</li>
-          <li>SQL</li>
-          <li>POSTGRES</li>
-        </ul>
+  return (
+    <>
+      <div className={style.main}>
+      <div className={style.scrollContainer}>
+        {tecnologias.map((item, index) => (
+          <div key={index} className={style.scrollItems}>
+            {item}
+          </div>
+        ))}
       </div>
-    );
+        </div>
+        </>
+    )
 }
