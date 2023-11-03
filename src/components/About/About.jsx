@@ -1,10 +1,11 @@
+import { Experience } from '../Experience/Experience'
 import style from './About.module.css'
 
 export const About = () =>{
   return (
     <>
-      <h2 className={style.h2}>Sobre mi</h2>
       <div className={style.container}>
+      <h2 className={style.h2}>Sobre mi</h2>
         <p className={style.p}>
           "Soy un desarrollador web full-stack apasionado con entusiasmo de
           seguir aprendiendo y adquiriendo experiencia en el mundo IT. Me
@@ -14,6 +15,7 @@ export const About = () =>{
           experiencia en el desarrollo de aplicaciones web utilizando las
           siguientes tecnologías..."
         </p>
+      <Experience style={style.experience } />
       </div>
     </>
   )

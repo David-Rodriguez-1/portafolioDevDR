@@ -1,4 +1,4 @@
-import { Home, About, Experience, Trabajos } from './views/index'
+import { Home, About, Trabajos } from './views/index'
 import { ThemeProvider } from './ThemeContext'
 import './App.css'
 
@@ -8,7 +8,6 @@ function App() {
       <div className="App">
         <Home />
         <About />
-        <Experience />
         <Trabajos />
       </div>
     </ThemeProvider>
