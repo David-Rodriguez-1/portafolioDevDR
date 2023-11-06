@@ -9,6 +9,7 @@
 }
 
 .logo{
+  padding: 1rem;
   display: flex;
   position: absolute;
   width: 10%;
@@ -93,6 +94,7 @@
 }
 
 .btnModo{
+  padding: 1rem;
   color: #ed6a00;
   font-size: 1.5rem;
 }

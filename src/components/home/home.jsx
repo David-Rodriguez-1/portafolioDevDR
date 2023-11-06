@@ -1,5 +1,4 @@
 import backimg from "./img/back-image.svg";
-import menu from "./img/menu.svg";
 import linkedin from "./img/linkedin.svg";
 import gitHub from "./img/git-hub.svg";
 import arrowRigth from "./img/arrow-right.svg";
@@ -20,9 +19,6 @@ export const Home = () => {
       <nav className={style.navMenu}>
         <button onClick={toggleDarkMode} className={style.btnModo}>
           {darkMode ? <BiSun /> : <MdOutlineDarkMode />}
-        </button>
-        <button className={style.btnMenu}>
-          <img src={menu} alt="menu" />
         </button>
       </nav>
       <section className={style.section}>
