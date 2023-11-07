@@ -1,4 +1,4 @@
-import { Home, About, Trabajos } from './views/index'
+import { Home, About, Trabajos } from './views/index.js'
 import { ThemeProvider } from './ThemeContext'
 import './App.css'
 
