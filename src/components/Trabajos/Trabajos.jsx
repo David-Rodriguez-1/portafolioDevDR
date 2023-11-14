@@ -29,7 +29,9 @@ export const Trabajos = () => {
           <article className={style.article_container}>
             <img src={Videogames} alt="healtech.tech" />
             <h4>
-              <a href="https://healtech.tech/" target="blank">
+              <a
+                href="https://github.com/David-Rodriguez-1/PI-Videogames-main"
+                target="blank">
                 Videogames
               </a>
             </h4>
@@ -38,14 +40,16 @@ export const Trabajos = () => {
               educativos, desarrollado como parte de mi viaje en Soy Henry's
               Bootcamp. En este proyecto, utilicé ReactJS, Redux, CSS-Modules,
               Express, NodeJs, Postgres, Sequelize y Axios para obtener datos de
-              la API pública de Spoonacular. Esta aplicación es totalmente
+              la API pública de rawg.io. Esta aplicación es totalmente
               responsiva y tiene su propio backend (BFF).
             </p>
           </article>
           <article className={style.article_container}>
             <img src={RickandMorty} alt="RickAndMorty" />
             <h4>
-              <a href="https://healtech.tech/" target="blank">
+              <a
+                href="https://github.com/David-Rodriguez-1/App-Rick-And-Morty"
+                target="blank">
                 Rick & Morty
               </a>
             </h4>
