@@ -19,7 +19,7 @@ export const Experience = () => {
               buscar errores, mejorar la calidad del código y disfruto dando
               vida a las ideas en el navegador.
             </p>
-            <p style={{ color: '#ed6a00' }}>Lengajes y tecnologías:</p>
+            <p style={{ color: '#ed6a00' }}>Lenguajes y tecnologías:</p>
             <p>HTML, CSS, JavaScript, React, Redux, Zustand</p>
             <p style={{ color: '#ed6a00' }}>Herramientas de desarrollo:</p>
             <ul>
@@ -38,7 +38,7 @@ export const Experience = () => {
               Me gusta el manejo de datos y su trasfondo para llegar al cliente
               con su búsqueda y protección de datos, código limpio y escalable.
             </p>
-            <p style={{ color: '#ed6a00' }}>Lengajes</p>
+            <p style={{ color: '#ed6a00' }}>Lenguajes</p>
             <p>JavaScript(NodeJS)</p>
             <p style={{ color: '#ed6a00' }}>Herramientas de desarrollo:</p>
             <ul>
