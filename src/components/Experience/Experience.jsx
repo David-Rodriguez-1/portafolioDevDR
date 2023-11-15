@@ -19,9 +19,9 @@ export const Experience = () => {
               buscar errores, mejorar la calidad del código y disfruto dando
               vida a las ideas en el navegador.
             </p>
-            <p style={{ color: '#ed6a00' }}>Lenguajes y tecnologías:</p>
+            <p style={{ color: '#28FA0A' }}>Lenguajes y tecnologías:</p>
             <p>HTML, CSS, JavaScript, React, Redux, Zustand</p>
-            <p style={{ color: '#ed6a00' }}>Herramientas de desarrollo:</p>
+            <p style={{ color: '#28FA0A' }}>Herramientas de desarrollo:</p>
             <ul>
               <li>Git</li>
               <li>GitHub</li>
@@ -38,14 +38,14 @@ export const Experience = () => {
               Me gusta el manejo de datos y su trasfondo para llegar al cliente
               con su búsqueda y protección de datos, código limpio y escalable.
             </p>
-            <p style={{ color: '#ed6a00' }}>Lenguajes</p>
+            <p style={{ color: '#28FA0A' }}>Lenguajes</p>
             <p>JavaScript(NodeJS)</p>
-            <p style={{ color: '#ed6a00' }}>Herramientas de desarrollo:</p>
+            <p style={{ color: '#28FA0A' }}>Herramientas de desarrollo:</p>
             <ul>
               <li>Express.js</li>
               <li>Sequelize</li>
             </ul>
-            <p style={{ color: '#ed6a00' }}>
+            <p style={{ color: '#28FA0A' }}>
               Sistema de gestión de bases de datos:
             </p>
             <ul>
@@ -60,9 +60,9 @@ export const Experience = () => {
               Valoro la estructura de contenido simple, los patrones de diseño
               limpios y las interacciones bien pensadas.
             </p>
-            <p style={{ color: '#ed6a00' }}>Cosas que disfruto diseñando:</p>
+            <p style={{ color: '#28FA0A' }}>Cosas que disfruto diseñando:</p>
             <p>UX, UI, Web, Aplicaciones, Logotipos</p>
-            <p style={{ color: '#ed6a00' }}>Herramientas de diseño:</p>
+            <p style={{ color: '#28FA0A' }}>Herramientas de diseño:</p>
             <ul>
               <li>Figma</li>
               <li>Canva</li>

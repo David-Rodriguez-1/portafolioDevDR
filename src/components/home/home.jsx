@@ -24,7 +24,9 @@ export const Home = () => {
       <section className={style.section}>
         <img className={style.imgBack} src={backimg} alt="back" />
         <h1 className={style.title}>Hola, soy David Rodríguez</h1>
-        <h2 className={style.h4}>Desarrollador web Full-Stack</h2>
+        <h2 className={style.h4}>
+          Desarrollador web <span>Full-Stack</span>
+        </h2>
         <p className={style.pDescripcion}>
           Un apasionado desarrollador web Full-Stack con un sólido conocimiento
           en el diseño y desarrollo de aplicaciones web.

@@ -1,3 +1,5 @@
+@import '../../vars.css';
+
 .trabajos_Container {
   margin-top: 5rem;
   display: flex;
@@ -15,11 +17,10 @@
 }
 
 .article_container {
-  box-shadow: 0 0 2rem #c2c2c2;
+  box-shadow: 0 0 1rem #c2c2c2;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  background-color: #1f23502e;
   flex-direction: column;
   width: 100%;
   > img {
@@ -37,22 +38,23 @@
       font-style: none;
     }
     >a:visited{
-      color: var(--textH1-color);
+      color: var(--text-color-dark);
     }
   }
   > p {
     background: transparent;
     align-self: center;
-    color: var(--textH1-color);
+    color: var(--text-color-dark);
     width: 90%; 
   }
 }
 
 .h2{
   position: relative;
+  background: transparent;
   display: flex;
   justify-content: center;
-    color: var(--textH1-color);
+    color: var(--text-color-dark);
   margin-top: 3rem;
 }
 

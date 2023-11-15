@@ -1,3 +1,4 @@
+@import '../../vars.css';
 
 .container{
     display: flex;
@@ -8,11 +9,10 @@
 }
 
 .contain{
-    background-color: var(--color-text);
+    background-color: var(--secondary-dark);
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
-    border: 1px solid #c3c3c3;
     width: 90%;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.39);
 }
@@ -25,12 +25,12 @@
     >h3, p{
         padding: 0 2rem;
         background-color: transparent;
-        color: var(--textH1-color);
+        color: var(--text-color-dark);
     }
     > ul, li{
         padding: 0;
         list-style: none;
-        color: var(--textH1-color);
+        color: var(--text-color-dark);
         background: transparent;
     }
 }
@@ -42,8 +42,8 @@
 .img_icon{
     padding: 1rem;
     border-radius: 50%;
-    background-color: var(--primary-color);
-    color: var(--textH1-color);
+    background-color: var(--accent-dark);
+    color: var(--text-color-dark);
     font-size: 2rem;
 }
 

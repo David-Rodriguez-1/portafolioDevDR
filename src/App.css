@@ -1,11 +1,19 @@
-*{
-    background: #FFFFFF;
+@import './vars.css';
+:root {
+  --size: 20px;
 }
-body{
-    background-color: #333;
+* {
+  /* background-color: var(--background-dark); */
+}
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: grid;
+    min-height: 100vh;
+    background: hsl(0 0% 6%);
 }
+
+
 
 /* @tailwind components; */

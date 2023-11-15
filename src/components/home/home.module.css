@@ -1,7 +1,12 @@
-:root {
+/* :root {
   --primary-color: #ed6a00;
   --text-color: #3f4258;
   --textH1-color: #1f2350;
+} */
+@import '../../vars.css';
+
+:root {
+  --size: 20px;
 }
 
 * {
@@ -19,6 +24,7 @@
 
 .container {
   position: relative;
+  z-index: 10000;
 }
 
 .navMenu {
@@ -42,23 +48,30 @@
   .title {
     font-size: 42px;
     font-weight: 800;
-    color: var(--textH1-color);
+    color: var(--text-color-dark);
   }
   > h2 {
     margin: 0%;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--text-color-dark);
+    > span {
+      color: transparent;
+      font-size: 2rem;
+      -webkit-text-stroke-width: .5px;
+      -webkit-text-stroke-color: var(--text-color-dark);
+    }
   }
   > p {
-    color: var(--text-color);
+    color: var(--text-color-dark);
     max-width: 500px;
     text-align: center;
+    font-size: 1.3rem;
   }
 }
 .imgBack {
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 18%;
 }
 
 .btnContacto {
@@ -70,11 +83,18 @@
   border-radius: 5px;
   width: 126.928px;
   height: 51.602px;
-  background-color: var(--primary-color);
+  background-color: transparent;
+  background-color: var(--secondary-dark);
+  box-shadow: 1px 2px 3px var(--accent-dark);
+  transition: 0.5s;
   > span {
-    color: #fff;
+    color: var(--text-color-dark);
     background: transparent;
   }
+}
+.btnContacto:hover {
+  cursor: pointer;
+  box-shadow: 2px 5px 7px var(--accent-dark);
 }
 
 .imgArrow {
@@ -95,6 +115,6 @@
 
 .btnModo {
   padding: 1rem;
-  color: #ed6a00;
+  color: var(--accent-dark);
   font-size: 1.5rem;
 }
