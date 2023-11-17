@@ -7,7 +7,7 @@ module.exports = {
     themes: [
       'light',
       'dark',
-      'cupcake',
+      'cupcake'
       // {
       //   mytheme: {
       //     "primary": '#d97706',
@@ -22,6 +22,9 @@ module.exports = {
       //   }
       // }
     ]
+  },
+  corePlugins: {
+    preflight: false
   },
   plugins: [require('daisyui')]
 }

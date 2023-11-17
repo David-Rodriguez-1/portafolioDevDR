@@ -1,25 +1,27 @@
-import backimg from "./img/back-image.svg";
-import linkedin from "./img/linkedin.svg";
-import gitHub from "./img/git-hub.svg";
-import arrowRigth from "./img/arrow-right.svg";
-import style from "./home.module.css";
-import Logo from './img/El texto del párrafo.svg'
-import { MdOutlineDarkMode } from 'react-icons/md';
-import { BiSun } from 'react-icons/bi';
-import { useContext } from 'react'
-import { ThemeContext } from '../../ThemeContext'
+import backimg from './img/back-image.svg'
+import linkedin from './img/linkedin.svg'
+import gitHub from './img/git-hub.svg'
+import arrowRigth from './img/arrow-right.svg'
+import style from './home.module.css'
+import Logo from './img/LogoDev3.svg'
+import { IoMailOutline } from 'react-icons/io5'
+import { FaInstagram } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+// import { MdOutlineDarkMode } from 'react-icons/md';
+// import { BiSun } from 'react-icons/bi';
+// import { useContext } from 'react'
+// import { ThemeContext } from '../../ThemeContext'
 
 export const Home = () => {
-
-  const { darkMode, toggleDarkMode } = useContext(ThemeContext)
+  // const { darkMode, toggleDarkMode } = useContext(ThemeContext)
 
   return (
-    <main className={darkMode ? style.darkContainer : style.container}>
+    <main /*className={darkMode ? style.darkContainer : style.container}*/>
       <img className={style.logo} src={Logo} alt="" />
       <nav className={style.navMenu}>
-        <button onClick={toggleDarkMode} className={style.btnModo}>
+        {/* <button onClick={toggleDarkMode} className={style.btnModo}>
           {darkMode ? <BiSun /> : <MdOutlineDarkMode />}
-        </button>
+        </button> */}
       </nav>
       <section className={style.section}>
         <img className={style.imgBack} src={backimg} alt="back" />
@@ -32,10 +34,48 @@ export const Home = () => {
           en el diseño y desarrollo de aplicaciones web.
         </p>
       </section>
-      <button className={style.btnContacto}>
+      <button
+        onClick={() => document.getElementById('my_modal_2').showModal()}
+        className={style.btnContacto}>
         <span>Contactame</span>{' '}
         <img className={style.imgArrow} src={arrowRigth} alt="" />
       </button>
+      <dialog id="my_modal_2" className="modal border-none">
+        <div className="modal-box">
+          <h3 className="font-bold text-lg">A un paso de hablar contigo!</h3>
+          <p className="py-4">Puedes contactarme por los siguientes medios</p>
+          <div
+            style={{
+              display: 'flex',
+              gap: '1rem',
+              width: '100%',
+              justifyContent: 'center'
+            }}>
+            <h4>
+              <a
+                href="https://www.linkedin.com/in/david-rodr%C3%ADguez-810434184/"
+                target="blank">
+                <FaLinkedin />
+              </a>
+            </h4>
+            <h4>
+              <a href="mailto:ezequiel-07@hotmail.com?subject=Solicitud de contacto&body=Hola David, Me gustaría poder hablar contigo...">
+                <IoMailOutline />
+              </a>
+            </h4>
+            <h4>
+              <a
+                href="https://www.instagram.com/david_rodriguez7/?next=%2F"
+                target="blank">
+                <FaInstagram />
+              </a>
+            </h4>
+          </div>
+        </div>
+        <form method="dialog" className="modal-backdrop">
+          <button style={{backgroundColor: 'transparent', border: 'none'}}></button>
+        </form>
+      </dialog>
       <div className={style.btnContain}>
         <button className={style.btnLinkedin}>
           <img src={linkedin} alt="linkedin" />

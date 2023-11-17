@@ -2,18 +2,26 @@
 :root {
   --size: 20px;
 }
-* {
-  /* background-color: var(--background-dark); */
-}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: grid;
-    min-height: 100vh;
-    background: hsl(0 0% 6%);
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  background: var(--background-dark);
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
-
-
-/* @tailwind components; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

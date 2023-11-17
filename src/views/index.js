@@ -1,5 +1,6 @@
 import { Home } from '../components/Home/Home.jsx';
 import { About } from '../components/About/About';
 import { Trabajos } from '../components/Trabajos/Trabajos';
+import { Footer } from '../components/Footer/Footer.jsx';
 
-export { Home, About, Trabajos}
+export { Home, About, Trabajos, Footer}
