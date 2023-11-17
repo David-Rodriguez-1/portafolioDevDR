@@ -37,6 +37,7 @@
     font-size: 1.5rem;
     padding-left: 0.5rem;
     > a {
+      color: inherit;
       background: transparent;
       text-decoration: none;
       font-style: none;
