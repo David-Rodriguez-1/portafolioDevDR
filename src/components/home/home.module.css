@@ -12,6 +12,10 @@
 * {
   font-family: 'Rubik', sans-serif;
 }
+main{
+  position: relative;
+  margin-bottom: 7rem;
+}
 
 .logo {
   padding: 1rem;
@@ -57,7 +61,7 @@
       color: transparent;
       font-size: 2rem;
       -webkit-text-stroke-width: .5px;
-      -webkit-text-stroke-color: var(--text-color-dark);
+      -webkit-text-stroke-color: #FDC57B;
     }
   }
   > p {
@@ -74,6 +78,8 @@
 }
 
 .btnContacto {
+  position: fixed;
+  z-index: 9999;
   margin-left: 0.7rem;
   display: flex;
   justify-content: space-evenly;

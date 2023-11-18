@@ -1,16 +1,10 @@
 import backimg from './img/back-image.svg'
-import linkedin from './img/linkedin.svg'
-import gitHub from './img/git-hub.svg'
 import arrowRigth from './img/arrow-right.svg'
 import style from './home.module.css'
 import Logo from './img/LogoDev3.svg'
 import { IoMailOutline } from 'react-icons/io5'
 import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-// import { MdOutlineDarkMode } from 'react-icons/md';
-// import { BiSun } from 'react-icons/bi';
-// import { useContext } from 'react'
-// import { ThemeContext } from '../../ThemeContext'
 
 export const Home = () => {
   // const { darkMode, toggleDarkMode } = useContext(ThemeContext)
@@ -76,14 +70,6 @@ export const Home = () => {
           <button style={{backgroundColor: 'transparent', border: 'none'}}></button>
         </form>
       </dialog>
-      <div className={style.btnContain}>
-        <button className={style.btnLinkedin}>
-          <img src={linkedin} alt="linkedin" />
-        </button>
-        <button className={style.btnGit}>
-          <img src={gitHub} alt="gitHub" />
-        </button>
-      </div>
     </main>
   )
 }
