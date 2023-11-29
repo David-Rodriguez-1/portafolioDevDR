@@ -23,7 +23,7 @@
 }
 
 .article_container {
-  box-shadow: 0 0 1rem #c2c2c2;
+  box-shadow: 0 0 .3rem #c2c2c2;
   position: relative;
   border-radius: 10px;
   display: flex;
