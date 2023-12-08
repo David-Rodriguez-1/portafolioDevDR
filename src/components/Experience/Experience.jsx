@@ -26,9 +26,10 @@ export const Experience = () => {
               <li>Git</li>
               <li>GitHub</li>
               <li>Material UI</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
               <li>Vercel</li>
               <li>Vite</li>
-              <li>Bootstrap</li>
             </ul>
           </section>
           <section className={style.section2}>

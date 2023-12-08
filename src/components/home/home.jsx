@@ -24,14 +24,14 @@ export const Home = () => {
           Desarrollador web <span>Full-Stack</span>
         </h2>
         <p className={style.pDescripcion}>
-          Un apasionado desarrollador web Full-Stack con un sólido conocimiento
+          Desarrollador web con un sólido conocimiento
           en el diseño y desarrollo de aplicaciones web.
         </p>
       </section>
       <button
         onClick={() => document.getElementById('my_modal_2').showModal()}
         className={style.btnContacto}>
-        <span>Contactame</span>{' '}
+        <span>Contáctame</span>{' '}
         <img className={style.imgArrow} src={arrowRigth} alt="" />
       </button>
       <dialog id="my_modal_2" className="modal border-none">

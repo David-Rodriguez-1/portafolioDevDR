@@ -7,7 +7,7 @@ export const About = () =>{
       <div className={style.container}>
       <h2 className={style.h2}>Sobre mi</h2>
         <p className={style.p}>
-          "Soy un desarrollador web full-stack apasionado con entusiasmo de
+          "Soy un desarrollador web, con entusiasmo de
           seguir aprendiendo y adquiriendo experiencia en el mundo IT. Me
           encanta trabajar en proyectos desafiantes y aprender nuevas
           tecnologías. Mi objetivo es aportar a la comunidad de forma
