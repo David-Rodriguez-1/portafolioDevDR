@@ -1,5 +1,6 @@
 import { Home, About, Trabajos, Footer } from './views/index.js'
 import { ThemeProvider } from './ThemeContext'
+import 'atropos/css'
 import './App.css'
 
 function App() {

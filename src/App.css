@@ -9,6 +9,8 @@ body {
   display: grid;
   background: var(--background-dark);
 }
+
+
 ::-webkit-scrollbar {
   width: 0;
 }

@@ -7,25 +7,25 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 
 export const Home = () => {
-  // const { darkMode, toggleDarkMode } = useContext(ThemeContext)
 
   return (
-    <main /*className={darkMode ? style.darkContainer : style.container}*/>
+    <main>
       <img className={style.logo} src={Logo} alt="" />
-      <nav className={style.navMenu}>
-        {/* <button onClick={toggleDarkMode} className={style.btnModo}>
-          {darkMode ? <BiSun /> : <MdOutlineDarkMode />}
-        </button> */}
-      </nav>
+      <nav className={style.navMenu}></nav>
       <section className={style.section}>
         <img className={style.imgBack} src={backimg} alt="back" />
-        <h1 className={style.title}>Hola, soy David Rodríguez</h1>
+        <h1 class="animate-fade-down animate-duration-2000 animate-ease-in">
+          Hola, soy David Rodríguez
+        </h1>
         <h2 className={style.h4}>
-          Desarrollador web <span>Full-Stack</span>
+          Desarrollador web{' '}
+          <span class="animate-fade-down animate-duration-2000 animate-ease-in animate-delay-500">
+            Full-Stack
+          </span>
         </h2>
         <p className={style.pDescripcion}>
-          Desarrollador web con un sólido conocimiento
-          en el diseño y desarrollo de aplicaciones web.
+          Desarrollador web con un sólido conocimiento en el diseño y desarrollo
+          de aplicaciones web.
         </p>
       </section>
       <button
@@ -67,7 +67,8 @@ export const Home = () => {
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
-          <button style={{backgroundColor: 'transparent', border: 'none'}}></button>
+          <button
+            style={{ backgroundColor: 'transparent', border: 'none' }}></button>
         </form>
       </dialog>
     </main>
