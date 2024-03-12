@@ -16,6 +16,7 @@ export const About = () => {
           aplicaciones web utilizando las siguientes tecnologías..."
         </p>
         <Atropos
+          class="atropos-rotate-touch-scroll-y atropos-rotate-touch"
           activeOffset={10}
           rotateXMax={5}
           rotateYMax={5}
