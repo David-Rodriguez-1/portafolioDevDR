@@ -15,7 +15,7 @@ export const Trabajos = () => {
             <article
               data-aos-offset="100"
               data-aos-duration="1500"
-              data-aos="fade-up "
+              data-aos="fade-up"
               key={trabajo.id}
               className={style.article_container}>
               <img src={trabajo.img} alt="" />

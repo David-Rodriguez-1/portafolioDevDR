@@ -10,9 +10,10 @@ export const About = () => {
       <div className={style.container}>
         <h2
           className={style.h2}
-          data-aos-offset="200"
-          data-aos-duration="1500"
-          data-aos="fade-in">
+          data-aos="fade-up"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="850"
+          data-aos-duration="500">
           Sobre mi
         </h2>
         <p
