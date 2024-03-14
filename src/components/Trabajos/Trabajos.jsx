@@ -13,9 +13,9 @@ export const Trabajos = () => {
         <section className={style.section_container}>
           {trabajos.map((trabajo) => (
             <article
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-duration="1500"
-              data-aos="fade-in"
+              data-aos="fade-up "
               key={trabajo.id}
               className={style.article_container}>
               <img src={trabajo.img} alt="" />
@@ -23,7 +23,7 @@ export const Trabajos = () => {
               <p>{trabajo.description}</p>
               <div
                 style={{ position: 'relative', width: 'auto' }}
-                className="navbar-start">
+                class="navbar-start">
                 <div className="dropdown dropdown-top">
                   <label
                     tabIndex={0}
