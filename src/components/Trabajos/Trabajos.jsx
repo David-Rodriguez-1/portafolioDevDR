@@ -1,15 +1,23 @@
 import style from './Trabajos.module.css'
 import {trabajos} from './data'
 import { FaLink } from 'react-icons/fa'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const Trabajos = () => {
+  AOS.init()
   return (
     <>
       <h2 className={style.h2}>Mis trabajos recientes</h2>
       <div className={style.trabajos_Container}>
         <section className={style.section_container}>
           {trabajos.map((trabajo) => (
-            <article key={trabajo.id} className={style.article_container}>
+            <article
+              data-aos-offset="200"
+              data-aos-duration="1500"
+              data-aos="fade-in"
+              key={trabajo.id}
+              className={style.article_container}>
               <img src={trabajo.img} alt="" />
               <h4>{trabajo.title}</h4>
               <p>{trabajo.description}</p>

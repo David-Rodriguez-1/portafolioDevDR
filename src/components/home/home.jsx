@@ -7,7 +7,6 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 
 export const Home = () => {
-
   return (
     <main>
       <img className={style.logo} src={Logo} alt="" />

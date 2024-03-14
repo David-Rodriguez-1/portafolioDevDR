@@ -14,14 +14,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(
-    to bottom,
-    var(--primary-dark) 0%,
-    var(--primary-dark) 15%,
-    var(--primary-dark)25%,
-    black 70%,
-    rgba(125, 185, 232, 0) 100%
-  );
   width: 100%;
   flex-direction: column;
 }
@@ -31,7 +23,6 @@
   top: -3rem;
   border-radius: 15px;
   color: var(--text-color-dark);
-  background: var(--primary-dark);
 }
 .p {
   color: var(--text-color-dark);
