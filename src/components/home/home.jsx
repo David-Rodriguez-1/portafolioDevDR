@@ -3,7 +3,7 @@ import arrowRigth from './img/arrow-right.svg'
 import style from './home.module.css'
 import Logo from './img/LogoDev3.svg'
 import { IoMailOutline } from 'react-icons/io5'
-import { FaInstagram } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 
 export const Home = () => {
@@ -57,10 +57,8 @@ export const Home = () => {
               </a>
             </h4>
             <h4>
-              <a
-                href="https://www.instagram.com/david_rodriguez7/?next=%2F"
-                target="blank">
-                <FaInstagram />
+              <a href="https://github.com/David-Rodriguez-1" target="blank">
+                <FaGithub />
               </a>
             </h4>
           </div>
