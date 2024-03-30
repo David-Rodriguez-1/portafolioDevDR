@@ -1,5 +1,5 @@
 import style from './Trabajos.module.css'
-import {trabajos} from './data'
+import { trabajos } from './data'
 import { FaLink } from 'react-icons/fa'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -13,10 +13,10 @@ export const Trabajos = () => {
         <section className={style.section_container}>
           {trabajos.map((trabajo) => (
             <article
+              key={trabajo.id}
               data-aos-offset="100"
               data-aos-duration="1500"
               data-aos="fade-up"
-              key={trabajo.id}
               className={style.article_container}>
               <img src={trabajo.img} alt="" />
               <h4>{trabajo.title}</h4>
@@ -46,6 +46,15 @@ export const Trabajos = () => {
                       <a target="blank" href={trabajo.urlCode}>
                         GitHub
                       </a>
+                    </li>
+                    <li>
+                      {trabajo.demo !== 'undefined' ? (
+                      <a target="blank" href={trabajo.demo}>
+                        Demo
+                      </a>
+                      ) : (
+                          <del>Demo</del>
+                      )}
                     </li>
                   </ul>
                 </div>
