@@ -1,6 +1,5 @@
 import style from './Experience.module.css'
-import { BiCodeAlt } from 'react-icons/bi'
-import { BiCodeCurly } from 'react-icons/bi'
+import { BiCodeAlt, BiCodeCurly } from 'react-icons/bi'
 import {SiAltiumdesigner} from 'react-icons/si'
 
 
@@ -8,7 +7,6 @@ import {SiAltiumdesigner} from 'react-icons/si'
 
 export const Experience = () => {
   return (
-    <>
       <main className={style.container}>
         <article className={style.contain}>
           <section className={style.section1}>
@@ -20,7 +18,17 @@ export const Experience = () => {
               vida a las ideas en el navegador.
             </p>
             <p style={{ color: '#28FA0A' }}>Lenguajes y tecnologías:</p>
-            <p>HTML, CSS, JavaScript, React, Redux, Zustand</p>
+          <p>HTML
+            <br />
+            CSS
+            <br />
+            JavaScript
+            <br />
+            React
+            <br />
+            Redux
+            <br />
+            Zustand</p>
             <p style={{ color: '#28FA0A' }}>Herramientas de desarrollo:</p>
             <ul>
               <li>Git</li>
@@ -62,7 +70,13 @@ export const Experience = () => {
               limpios y las interacciones bien pensadas.
             </p>
             <p style={{ color: '#28FA0A' }}>Cosas que disfruto diseñando:</p>
-            <p>UX, UI, Web, Aplicaciones, Logotipos</p>
+          <p>UX UI
+            <br />
+            Web
+            <br />
+            Aplicaciones
+            <br />
+            Logotipos</p>
             <p style={{ color: '#28FA0A' }}>Herramientas de diseño:</p>
             <ul>
               <li>Figma</li>
@@ -72,6 +86,5 @@ export const Experience = () => {
           </section>
         </article>
       </main>
-    </>
   )
 }

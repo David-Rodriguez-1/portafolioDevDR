@@ -27,7 +27,6 @@
   position: relative;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 100%;
   > img {
@@ -41,8 +40,7 @@
     padding-left: 0.5rem;
   }
   > p {
-    background: transparent;
-    align-self: center;
+    margin-left: 1rem;
     color: var(--text-color-dark);
     width: 90%;
   }

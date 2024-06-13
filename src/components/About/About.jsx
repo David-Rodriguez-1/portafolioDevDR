@@ -6,18 +6,17 @@ import 'aos/dist/aos.css'
 export const About = () => {
   AOS.init()
   return (
-    <>
       <div className={style.container}>
         <h2
           className={style.h2}
-          data-aos="fade-up"
+          data-aos="fade-down"
           data-aos-anchor="#example-anchor"
           data-aos-offset="850"
           data-aos-duration="500">
           Sobre mi
         </h2>
-        <p
-          data-aos="fade-up"
+      <p
+          data-aos="fade-down"
           data-aos-offset="300"
           data-aos-duration="1500"
           className={style.p}>
@@ -30,6 +29,5 @@ export const About = () => {
         </p>
         <Experience data-aos="fade-up" style={style.experience} />
       </div>
-    </>
   )
 }

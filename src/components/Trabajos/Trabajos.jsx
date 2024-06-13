@@ -27,7 +27,7 @@ export const Trabajos = () => {
                 <div className="dropdown dropdown-top">
                   <label
                     tabIndex={0}
-                    className="btn btn-ghost text-2xl btn-circle">
+                    className="btn btn-ghost text-2xl btn-circle ms-2">
                     <FaLink />
                   </label>
                   <ul

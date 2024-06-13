@@ -1,26 +1,27 @@
-import backimg from './img/back-image.svg'
 import arrowRigth from './img/arrow-right.svg'
 import style from './home.module.css'
-import Logo from './img/LogoDev3.svg'
+import myAvatar from './img/myAvatar.svg'
+import keyboard from './img/keyboard.svg'
 import { IoMailOutline } from 'react-icons/io5'
-import { FaGithub } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
+
 
 export const Home = () => {
   return (
-    <main>
-      <img className={style.logo} src={Logo} alt="" />
+    <main style={{ margin: '12rem 15rem' }}>
       <nav className={style.navMenu}></nav>
       <section className={style.section}>
-        <img className={style.imgBack} src={backimg} alt="back" />
-        <h1 class="animate-fade-down animate-duration-2000 animate-ease-in">
-          Hola, soy David Rodríguez
+        <img className={style.imgAvatar} src={myAvatar} alt="" />
+        <img className={style.imgKeyboard} src={keyboard} alt="" />
+        <h1 className="animate-fade-down animate-duration-2000 animate-ease-in">
+          Hola,
+          <br />
+          Soy <span style={{ color: 'green' }}> David Iker </span>
         </h1>
         <h2 className={style.h4}>
           Desarrollador web{' '}
-          <span class="animate-fade-down animate-duration-2000 animate-ease-in animate-delay-500">
-            Full-Stack
-          </span>
+          <span className={style.textFullStack}>Full-Stack</span>
         </h2>
         <p className={style.pDescripcion}>
           Desarrollador web con un sólido conocimiento en el diseño y desarrollo

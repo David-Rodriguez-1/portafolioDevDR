@@ -7,21 +7,18 @@ body {
   margin: 0;
   box-sizing: border-box;
   display: grid;
-  background-image: url('../public/Images/black-370118_1920.png');
-  background-repeat: repeat;
-  background-size: contain;
-  /* background: var(--background-dark); */
+  background: var(--background-dark);
 }
 
 
 ::-webkit-scrollbar {
-  width: 0;
+  width: .2rem;
 }
 ::-webkit-scrollbar-track {
-  background: var(--background-dark);
+  background: var(--primary-dark);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: var(--secondary-dark);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
