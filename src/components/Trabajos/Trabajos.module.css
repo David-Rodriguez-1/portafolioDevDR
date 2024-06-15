@@ -1,25 +1,32 @@
 @import '../../vars.css';
 
 .trabajos_Container {
-  margin-top: 5rem;
+  padding-top: 3rem;
   display: flex;
   position: relative;
-  width: 100%;
+  margin: 0 auto;
   justify-content: center;
+  width: 80%;
 }
 
 .section_container {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  width: 50%;
-  height: 100%;
+	display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      350px,
+      1fr
+    )
+  );
+  grid-template-rows: repeat(1, 1fr);
+  gap: 20px;
 }
+
 .article_container:hover{
   position: relative;
   z-index: 999;
-  transition: .5s;
   transform: scale(1.03);
+  box-shadow: 0 0 20px rgb(135, 135, 135);
 }
 
 .article_container {
@@ -29,6 +36,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  transition: 1s;
   > img {
     width: 100%;
     border-radius: 10px;
@@ -46,11 +54,32 @@
   }
 }
 
+.introTrabajos{
+  margin-left: 15rem;
+  font-size: 1.3rem;
+  max-width: 60%;
+}
+
+.container_ul{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 2rem;
+  >li{
+    transition: .2s;
+    &:hover{
+    filter: drop-shadow(2px 2px rgb(127, 127, 127));
+    color: var(--accent-dark);
+  }
+  }
+}
+
 .h2{
   position: relative;
   background: transparent;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 15rem;
   color: var(--text-color-dark);
   margin-top: 3rem;
 }

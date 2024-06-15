@@ -17,7 +17,7 @@ export const Home = () => {
         <h1 className="animate-fade-down animate-duration-2000 animate-ease-in">
           Hola,
           <br />
-          Soy <span style={{ color: 'green' }}> David Iker </span>
+          Soy <span className={style.textFullStack}> David </span>
         </h1>
         <h2 className={style.h4}>
           Desarrollador web{' '}

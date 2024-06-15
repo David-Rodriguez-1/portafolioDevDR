@@ -12,14 +12,6 @@ main {
   margin-bottom: 7rem;
 }
 
-.logo {
-  padding: 1rem;
-  display: flex;
-  position: absolute;
-  width: 5%;
-  z-index: 10;
-}
-
 .container {
   position: relative;
   z-index: 10000;
@@ -119,10 +111,10 @@ main {
     color: var(--text-color-dark);
     background: transparent;
   }
-}
-.btnContacto:hover {
-  cursor: pointer;
-  box-shadow: 2px 5px 7px var(--accent-dark);
+  &:hover {
+    cursor: pointer;
+    box-shadow: 2px 5px 7px var(--accent-dark);
+  }
 }
 
 .imgArrow {
@@ -145,10 +137,9 @@ a {
   color: inherit;
   text-decoration: none;
   font-size: 2rem;
-}
-
-a:visited {
-  color: inherit;
+  &:visited {
+    color: inherit;
+  }
 }
 
 .btnModo {
@@ -157,10 +148,13 @@ a:visited {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1000px) {
-  .logo {
-    width: 10%;
+@media screen and (max-width: 1024px) {
+  .imgAvatar {
+    width: 25%;
+    right: 5rem;
+    top: -2rem;
   }
+  
 }
 @media screen and (max-width: 426px) {
   .btnContacto {

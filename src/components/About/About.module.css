@@ -15,8 +15,8 @@
 }
 .p {
   margin: 0 15rem;
-  color: var(--text-color-dark);
-  max-width: 60%;
+  color: #f2fff0a8;
+  max-width: 50%;
   font-size: 22px;
   padding: 3rem 0;
 }
@@ -25,9 +25,10 @@
   width: 18rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .p {
     font-size: 1.3rem;
+    max-width: 60%;
   }
 }
 @media screen and (max-width: 700px) {
