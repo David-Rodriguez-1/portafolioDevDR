@@ -9,7 +9,6 @@
 }
 main {
   position: relative;
-  margin-bottom: 7rem;
 }
 
 .container {
@@ -34,7 +33,7 @@ main {
 }
 
 .section {
-  margin-top: 2rem;
+  padding: 12rem 10rem;
   position: relative;
   h1 {
     font-size: 42px;
@@ -55,14 +54,14 @@ main {
 }
 .imgAvatar {
   position: absolute;
-  right: 10rem;
-  width: 25%;
+  right: 25rem;
+  width: 20%;
   mask-image: linear-gradient(black 70%, transparent);
 }
 
 .imgKeyboard {
   position: absolute;
-  right: 0rem;
+  right: 9rem;
   width: 12%;
   filter: drop-shadow(0 5px 0px black);
   -webkit-animation: imgKeyboard 5s infinite alternate both;
@@ -157,6 +156,9 @@ a {
   
 }
 @media screen and (max-width: 426px) {
+  .section{
+    padding: 1rem 1rem;
+  }
   .btnContacto {
     justify-content: flex-end;
     top: 0.5rem;
@@ -175,11 +177,10 @@ a {
   .logo {
     width: 13%;
   }
-  .imgBack {
-    width: 50%;
-  }
-  .title {
-    padding-left: 1rem;
+  .imgAvatar {
+    width: 30%;
+    right: 2rem;
+    top: 2rem;
   }
   .h4 {
     display: flex;
@@ -188,8 +189,5 @@ a {
   }
   .pDescripcion {
     width: 93%;
-  }
-  h1 {
-    margin-left: 1rem;
   }
 }

@@ -4,12 +4,9 @@
 }
 
 body {
-  margin: 0;
-  box-sizing: border-box;
-  display: grid;
   background: var(--background-dark);
+  margin: 0;
 }
-
 
 ::-webkit-scrollbar {
   width: .2rem;

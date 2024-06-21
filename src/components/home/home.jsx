@@ -9,8 +9,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export const Home = () => {
   return (
-    <main style={{ margin: '12rem 15rem' }}>
-      <nav className={style.navMenu}></nav>
+    <main className={style.main}>
       <section className={style.section}>
         <img className={style.imgAvatar} src={myAvatar} alt="" />
         <img className={style.imgKeyboard} src={keyboard} alt="" />

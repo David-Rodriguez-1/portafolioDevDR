@@ -8,13 +8,13 @@
 }
 .h2 {
   position: absolute;
-  margin: 0 15rem;
+  padding: 0 10rem;
   top: -3rem;
   border-radius: 15px;
   color: var(--text-color-dark);
 }
 .p {
-  margin: 0 15rem;
+  margin: 0 10rem;
   color: #f2fff0a8;
   max-width: 50%;
   font-size: 22px;
@@ -33,7 +33,11 @@
 }
 @media screen and (max-width: 700px) {
   .p {
-    max-width: 80%;
+    min-width: 85%;
     font-size: 1rem;
+    margin: 0 1rem;
+  }
+  .h2{
+    padding: 1rem 1rem;
   }
 }
