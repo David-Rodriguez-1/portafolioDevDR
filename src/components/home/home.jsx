@@ -1,7 +1,5 @@
 import arrowRigth from './img/arrow-right.svg'
 import style from './home.module.css'
-import myAvatar from './img/myAvatar.svg'
-import keyboard from './img/keyboard.svg'
 import { IoMailOutline } from 'react-icons/io5'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
@@ -11,8 +9,6 @@ export const Home = () => {
   return (
     <main className={style.main}>
       <section className={style.section}>
-        <img className={style.imgAvatar} src={myAvatar} alt="" />
-        <img className={style.imgKeyboard} src={keyboard} alt="" />
         <h1 className="animate-fade-down animate-duration-2000 animate-ease-in">
           Hola,
           <br />

@@ -9,6 +9,8 @@
 }
 main {
   position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container {
@@ -16,24 +18,12 @@ main {
   z-index: 10000;
 }
 
-.navMenu {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(2, 5fr);
-  justify-items: end;
-  .btnMenu,
-  .btnModo {
-    border: none;
-    background: transparent;
-  }
-}
-
 .textFullStack {
   color: var(--accent-dark);
 }
 
 .section {
-  padding: 12rem 10rem;
+  /* padding: 12rem 10rem; */
   position: relative;
   h1 {
     font-size: 42px;
@@ -47,28 +37,12 @@ main {
   > p {
     color: var(--text-color-dark);
     max-width: 500px;
-    text-align: start;
     font-size: 22px;
     opacity: 0.5;
   }
 }
-.imgAvatar {
-  position: absolute;
-  right: 25rem;
-  width: 20%;
-  mask-image: linear-gradient(black 70%, transparent);
-}
 
-.imgKeyboard {
-  position: absolute;
-  right: 9rem;
-  width: 12%;
-  filter: drop-shadow(0 5px 0px black);
-  -webkit-animation: imgKeyboard 5s infinite alternate both;
-  animation: imgKeyboard 5s infinite alternate both;
-}
-
-@-webkit-keyframes imgKeyboard {
+/* @-webkit-keyframes imgKeyboard {
   0% {
     -webkit-transform: rotateX(0);
     transform: rotateX(0);
@@ -87,7 +61,7 @@ main {
     -webkit-transform: rotateY(25deg);
     transform: rotateY(25deg);
   }
-}
+} */
 
 .btnContacto {
   position: fixed;
@@ -116,11 +90,7 @@ main {
   }
 }
 
-.imgArrow {
-  background: transparent;
-}
-
-.btnContain {
+/* .btnContain {
   margin-left: 1rem;
   width: fit-content;
   .btnLinkedin,
@@ -130,7 +100,7 @@ main {
     margin-top: 1rem;
     padding: 0.4rem;
   }
-}
+} */
 
 a {
   color: inherit;
