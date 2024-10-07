@@ -5,20 +5,19 @@
   display: flex;
   gap: 1rem;
   flex-direction: column;
+  align-items: center;
 }
 .h2 {
-  position: absolute;
-  padding: 0 10rem;
-  top: -3rem;
-  border-radius: 15px;
   color: var(--text-color-dark);
+  padding-left: 3rem;
+  width: fit-content;
 }
 .p {
-  margin: 0 10rem;
   color: #f2fff0a8;
   max-width: 50%;
+  padding-left: 3rem;
   font-size: 22px;
-  padding: 3rem 0;
+  text-align: center;
 }
 
 .imgDev {

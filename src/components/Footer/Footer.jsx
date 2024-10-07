@@ -3,12 +3,13 @@ import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { IoIosMail } from 'react-icons/io'
 
+const copyR = new Date().getFullYear()
 export const Footer = () => {
     return (
       <footer className="w-auto bg-slate-800 mt-6 footer items-center justify-center p-3 text-neutral-content">
         <aside className="items-center grid-flow-col">
           <img style={{ width: '36px' }} src={Logo} alt="David Dev" />
-          <p>Copyright © 2023 - All right reserved</p>
+          <p>Copyright © { copyR } - All right reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 justify-center w-full">
           <button className="btn btn-ghost">

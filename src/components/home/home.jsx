@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <main className={style.main}>
       <section className={style.section}>
-        <h1 className="animate-fade-down animate-duration-2000 animate-ease-in">
+        <h1 className="animate-fade-down animate-duration-2000 animate-ease-in pt-14">
           Hola,
           <br />
           Soy <span className={style.textFullStack}> David </span>

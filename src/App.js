@@ -7,10 +7,12 @@ function App() {
   return (
     <ThemeProvider>
       <div className="App">
-        <Home />
-        <About />
-        <Trabajos />
-        <Footer />
+        <div className="max-w-screen-2xl mx-auto">
+          <Home />
+          <About />
+          <Trabajos />
+          <Footer />
+        </div>
       </div>
     </ThemeProvider>
   )
