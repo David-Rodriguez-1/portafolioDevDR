@@ -21,7 +21,7 @@ export const trabajos = [
     title: 'Videogames',
     description:
       'La aplicación Videogames fue un proyecto evaluado con fines educativos, desarrollado como parte de mi viaje en Soy Henry Bootcamp. En este proyecto, utilicé ReactJS, Redux, CSS-Modules, Express, NodeJs, Postgres, Sequelize y Axios para obtener datos de la API pública de rawg.io. Esta aplicación es totalmente responsiva y tiene su propio backend (BFF).',
-    urlDeploy: 'https://videogames-prod.vercel.app/home',
+    urlDeploy: 'https://videogames-prod.vercel.app',
     urlCode: 'https://github.com/David-Rodriguez-1/PI-Videogames-main',
     demo: 'undefined'
   },
